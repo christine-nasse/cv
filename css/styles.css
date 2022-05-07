@@ -55,6 +55,7 @@ body {
 
 .general-info {
     padding: 2% 0 2% 0;
+    min-width: 500px;
 }
 
 .full-name {
@@ -77,7 +78,7 @@ h3 {
     margin: 0;
     padding-top: 2%;;
     font-weight: 600;
-    font-family: 'Josefin Sans', sans-serif;
+    /*font-family: 'Josefin Sans', sans-serif;*/
     line-height: 2.5;
 }
 
