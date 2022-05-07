@@ -1,0 +1,191 @@
+
+/*general settings*/
+body {
+    background: #f2f7f8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+}
+
+/*navbar*/
+
+.navbar-nav {
+    padding: 2% 5% 2% 70%;
+}
+
+.nav-item {
+    padding: 2%;
+}
+
+.title-brand {
+    font-size:3rem ;
+}
+
+.nav-button .site-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1rem;
+    min-width: 213px;
+    min-height: 20px;
+    text-align: center;
+    padding: 20px 10px 15px;
+    position: relative;
+    background-color: #fff;
+    margin-right: 10px;
+    border: 2px solid #40424a;
+    color: #40424a;
+    font-weight: 700;
+}
+
+.nav {
+    background: #7952b3;
+}
+
+/*general information*/
+.container {
+    padding: 50px;
+    align-content: center;
+    line-height: 2.5rem;
+}
+
+.profile-image {
+    width: 100%;
+    min-width: 500px;
+    min-height: 500px;
+}
+
+.general-info {
+    padding: 2% 0 2% 0;
+    min-width: 500px;
+}
+
+.full-name {
+    font-size:2.5rem ;
+    padding-bottom: 4%;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 400;
+    line-height: 1.2;
+    color: #808181;
+}
+
+h3 {
+    color: #40424a;
+    margin: 0;
+    padding-top: 2%;;
+    font-weight: 600;
+    /*font-family: 'Josefin Sans', sans-serif;*/
+    line-height: 2.5;
+}
+
+/*Experiences*/
+
+#experiences {
+    background-color: #fff;
+    padding: 7% 10% 5% 10%;
+    text-align: center;
+}
+
+.resume-list {
+    text-align: left;
+    padding-left: 5%;
+    border-left: solid black;
+    line-height: 2.5rem;
+    margin-top: 5%;
+}
+
+/*education*/
+#education {
+    padding: 7% 10% 5% 10%;
+    text-align: center;
+}
+
+/*references*/
+#references {
+    /*background-color: #fff;*/
+    background-color: lightblue;
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+
+}
+.carousel-item {
+    padding: 2% 0% 0% 0%;
+    color: #808181;
+    line-height: 1.5rem;
+}
+
+.testimonial-image {
+    margin-top:  3% ;
+    border: solid;
+    border-radius: 100%;
+    width: 15%;
+}
+/*compétences*/
+#skills {
+    background-color: #fff;
+    padding: 5% 10% 5% 5%;
+    text-align: left;
+}
+
+
+/*footer*/
+#footer {
+    padding: 2% 10% 0% 2%;
+    text-align: center;
+    align-content: center;
+}
+
+@media (max-width: 900px) {
+    body {
+        line-height: 1.2;
+    }
+    p {
+        font-size:2rem;
+        line-height: 1.2;
+        text-align: justify-all;
+        padding-bottom: 7%;
+    }
+
+    .full-name {
+        font-size:4rem ;
+        line-height: 1.2;
+        text-align: justify-all;
+    }
+
+    h1 {
+        font-size:3.5rem ;
+        line-height: 1.2;
+        text-align: justify-all;
+        padding-bottom: 7%;
+    }
+
+    h2 {
+        font-size:3rem ;
+        line-height: 1.2;
+        text-align: justify-all;
+        padding-bottom: 7%;
+    }
+
+    h4 {
+        font-size:2rem ;
+        line-height: 1.2;
+        text-align: justify-all;
+        padding-bottom: 7%;
+    }
+
+    h3 {
+        font-size:2.5rem ;
+        line-height: 1.2;
+        text-align: justify-all;
+        padding-bottom: 7%;
+    }
+
+    .resume-list {
+        margin-top: 7%;
+    }
+
+}
