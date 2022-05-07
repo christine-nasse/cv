@@ -45,8 +45,12 @@ body {
     padding: 50px;
     align-content: center;
     line-height: 2.5rem;
+    background-color: lightpink;
 }
 
+#general {
+    background-color: lightpink;
+}
 .profile-image {
     width: 100%;
     min-width: 500px;
