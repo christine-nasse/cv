@@ -9,7 +9,7 @@ body {
 /*navbar*/
 
 .navbar-nav {
-    padding: 2% 5% 2% 80%;
+    padding: 2% 5% 2% 70%;
 }
 
 .nav-item {
@@ -17,13 +17,13 @@ body {
 }
 
 .title-brand {
-    font-size:2.25rem ;
+    font-size:3rem ;
 }
 
 .nav-button .site-btn {
     display: inline-block;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 1rem;
     min-width: 213px;
     min-height: 20px;
     text-align: center;
@@ -49,6 +49,8 @@ body {
 
 .profile-image {
     width: 100%;
+    min-width: 500px;
+    min-height: 500px;
 }
 
 .general-info {
@@ -56,7 +58,8 @@ body {
 }
 
 .full-name {
-    font-size:3.5rem ;
+    font-size:2.5rem ;
+    padding-bottom: 4%;
 }
 
 h2 {
