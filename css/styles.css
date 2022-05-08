@@ -47,12 +47,14 @@ body {
     line-height: 2.5rem;
     background-color: #FFFDDE;
 }
+.icon {
+    color: lightblue;
+    padding: 2% 2% 0% 0%;
+}
 
 
-.profile-image {
+.profile-image{
     width: 100%;
-    min-width: 500px;
-    min-height: 500px;
 }
 
 .general-info {
