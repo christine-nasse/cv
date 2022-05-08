@@ -1,15 +1,19 @@
 
 /*general settings*/
 body {
-    background: #f2f7f8;
+    background: #E7FBBE;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2rem;
 }
 
 /*navbar*/
 
+#navbar-section {
+    background-color: #2155CD;
+}
+
 .navbar-nav {
-    padding: 2% 5% 2% 70%;
+    padding: 0% 5% 0% 70%;
 }
 
 .nav-item {
@@ -29,28 +33,22 @@ body {
     text-align: center;
     padding: 20px 10px 15px;
     position: relative;
-    background-color: #fff;
     margin-right: 10px;
     border: 2px solid #40424a;
     color: #40424a;
     font-weight: 700;
 }
 
-.nav {
-    background: #7952b3;
-}
-
 /*general information*/
-.container {
+
+#general {
     padding: 50px;
     align-content: center;
     line-height: 2.5rem;
-    background-color: lightpink;
+    background-color: #FFFDDE;
 }
 
-#general {
-    background-color: lightpink;
-}
+
 .profile-image {
     width: 100%;
     min-width: 500px;
@@ -89,7 +87,6 @@ h3 {
 /*Experiences*/
 
 #experiences {
-    background-color: #fff;
     padding: 7% 10% 5% 10%;
     text-align: center;
 }
@@ -106,14 +103,14 @@ h3 {
 #education {
     padding: 7% 10% 5% 10%;
     text-align: center;
+    background-color: #FFFDDE;
 }
 
 /*references*/
 #references {
-    /*background-color: #fff;*/
-    background-color: lightblue;
     padding: 5% 10% 5% 10%;
     text-align: center;
+
 
 }
 .carousel-item {
@@ -130,9 +127,9 @@ h3 {
 }
 /*compétences*/
 #skills {
-    background-color: #fff;
     padding: 5% 10% 5% 5%;
     text-align: left;
+    background-color: #FFFDDE;
 }
 
 
